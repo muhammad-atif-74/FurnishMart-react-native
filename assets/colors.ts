@@ -1,5 +1,6 @@
 const colors = {
-    background: "#121212",        // Dark background
+    background: "#121212",
+    primary: "#FFAC1C",        // Dark background
     card: "#1e1e1e",              // For cards or elevated surfaces
     textPrimary: "#ffffff",       // Primary text color
     textSecondary: "#b0b0b0",     // Secondary text
