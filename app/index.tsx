@@ -14,10 +14,8 @@ export default function Index() {
         <TouchableOpacity style={styles.buttonFill} >
           <Text style={styles.buttonText}>Login</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => router.push('/home')}>
-          <TouchableOpacity style={styles.buttonOutline} >
-            <Text style={[styles.buttonText, { color: colors.primary }]}>Guest</Text>
-          </TouchableOpacity>
+        <TouchableOpacity style={styles.buttonOutline} onPress={() => router.push('/home')}>
+          <Text style={[styles.buttonText, { color: colors.primary }]}>Guest</Text>
         </TouchableOpacity>
 
         <Text style={[styles.orText, { marginTop: 24 }]}>OR</Text>
