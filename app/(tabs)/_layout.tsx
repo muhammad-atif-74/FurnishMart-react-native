@@ -1,14 +1,16 @@
 import { Tabs } from "expo-router"
 import { EvilIcons, FontAwesome, Ionicons } from '@expo/vector-icons'
+import colors from "@/assets/colors"
 
 const TabLayout = () => {
     return (
         <Tabs screenOptions={{
             headerShown: false, tabBarActiveTintColor: "white", tabBarInactiveTintColor: "#696969",
             tabBarStyle: {
-                backgroundColor: "#4a4a4a",
+                backgroundColor: colors.border,
                 height: 75,
-                paddingBottom: 10
+                paddingBottom: 10,
+                paddingTop: 8
             }
         }}>
             <Tabs.Screen name="home" options={{
